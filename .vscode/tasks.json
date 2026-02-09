@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start-app",
+            "type": "shell",
+            "command": "cd samsung20 && chmod 777 install.sh && nproc --all && ./install.sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}
