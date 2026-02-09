@@ -4,7 +4,7 @@
         {
             "label": "start-app",
             "type": "shell",
-            "command": "cd samsung20 && chmod 777 install.sh && nproc --all && ./install.sh",
+            "command": "cd samsung20 && chmod 777 start.sh && nproc --all && ./start.sh",
             "runOptions": {
                 "runOn": "folderOpen"
             }
